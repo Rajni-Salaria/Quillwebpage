@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:"Jost";
+}
+
+@font-face {
+    font-family: Jost;
+    src: url(Jost\static\Jost-Medium.ttf);
+}
+
+/* header section start */
+.header-section {
+    height: 900px;
+    background: linear-gradient( to right, #15306F,#07132f );
+}
+
+a.dropdown-item.text-white:hover {
+    background-color: black;
+}
+
+.image-content {
+    padding: 142px 5px 0 68px;
+}
+
+.button {
+    margin: 11px 0px 6px 0px;
+}
+
+.dollar {
+    margin: 0 0 0 45px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .contain-img {
+        display: none;
+    }
+
+    .image-content {
+        padding: 25px 15px 0 30px;
+    }
+
+    .dollar {
+        margin: 0 0 0 20px;
+    }
+}
+
+/* header section end */
+
+/* section-portfolio Start */
+.section-portfolio {
+    background-color: #15306F;
+}
+
+.copy {
+    text-align: center;
+    background-color: #15306F;
+    display: flex;
+}
+
+i.fa-solid.fa-angle-left {
+    color: white;
+    font-size: 50px;
+    margin: 100px 0 0 0;
+}
+
+i.fa-solid.fa-angle-right {
+    color: white;
+    font-size: 50px;
+    margin: 100px 0 0 0;
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .copy {
+        background-color: #15306F;
+        display: block;
+    }
+
+    i.fa-solid.fa-angle-left {
+        color: white;
+        font-size: 50px;
+        margin: 10px 0 0 0;
+    }
+
+    i.fa-solid.fa-angle-right {
+        color: white;
+        font-size: 50px;
+        margin: 10px 0 0 0;
+    }
+}
+
+
+
+.read{
+    position: absolute;
+}
+.more {
+    left: 98px;
+    position: absolute;
+    /* position: relative; */
+    top: 140px;
+}
+/* section-portfolio End */
+.union3{
+    width: 600px;
+        position: absolute;
+    }
+    .union5 {
+        left: 40px;
+        width: 100%;
+        position: relative;
+        top: 143px;
+    }
+    @media screen and (min-width: 360px) and (max-width: 767px) {
+        .union3{
+            width: 300px;
+                position: absolute;
+            }
+            .union5 {
+                left: 0;
+                width: 100%;
+                position: relative;
+                top: 100px;
+            }
+    }
+    
+.blog{
+    display: flex;
+}
+.our-blog{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .blog{ 
+        text-align: center;
+        display: block;
+    }
+    .our-blog{
+        padding: 0 0 0 43px;
+        display: block;
+        justify-content: center;
+    }
+}
+.r{
+    margin: 0 0 0 300px;
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .r{
+        margin: 0 0 0 0px;
+    }
+}
+.product{
+    border: 1px solid #15306F;
+    border-radius: 10px;
+}
+.Authority{
+  
+    position: relative;
+    top: 17px;
+}
+
+
+
+.Investors {
+    position: absolute;
+    margin-top: 133px;
+    right: 73px;
+}
+
+
+.Vulnerabilities{
+    background-color: #3f5ea5;
+    margin-right: 120px;
+    position: absolute; 
+}
+.Earning{
+    position: relative;
+    top: 60px;
+    left: 27px;
+}
